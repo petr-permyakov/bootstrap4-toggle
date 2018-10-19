@@ -1,13 +1,13 @@
-/*! ========================================================================
- * Bootstrap Toggle: bootstrap-toggle.js v2.2.0
- * http://www.bootstraptoggle.com
- * ========================================================================
- * Copyright 2014 Min Hur, The New York Times Company
- * Licensed under MIT
- * ======================================================================== */
+/*\ ========================================================================
+ *  Bootstrap Toggle: bootstrap-toggle.js v3.0.0
+ *  https://gitbrent.github.io/bootstrap-toggle/
+ *  ========================================================================
+ *  Copyright 2018 Brent Ely
+ *  Licensed under MIT
+ *  ========================================================================
+\*/
 
-
- +function ($) {
++function ($) {
  	'use strict';
 
 	// TOGGLE PUBLIC CLASS DEFINITION
@@ -19,13 +19,13 @@
 		this.render()
 	}
 
-	Toggle.VERSION  = '2.2.0'
+	Toggle.VERSION  = '3.0.0'
 
 	Toggle.DEFAULTS = {
 		on: 'On',
 		off: 'Off',
 		onstyle: 'primary',
-		offstyle: 'default',
+		offstyle: 'light',
 		size: 'normal',
 		style: '',
 		width: null,
@@ -171,7 +171,7 @@
 		$('input[type=checkbox][data-toggle^=toggle]').bootstrapToggle()
 	})
 
-	$(document).on('click.bs.toggle', 'div[data-toggle^=toggle]', function(e) {
+	$(document).on('touchstart.bs.toggle click.bs.toggle', 'div[data-toggle^=toggle]', function(e) {
 		var $checkbox = $(this).find('input[type=checkbox]')
 		$checkbox.bootstrapToggle('toggle')
 		e.preventDefault()
