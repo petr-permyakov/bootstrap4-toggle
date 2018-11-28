@@ -1,4 +1,4 @@
-[![Bootstrap 4.1.3](https://img.shields.io/badge/bootstrap-4.1.3-green.svg?style=flat-square)](https://getbootstrap.com/docs/4.1)  [![MIT License](https://badges.frapsoft.com/os/mit/mit.svg?style=flat-square)](https://opensource.org/licenses/mit-license.php)  
+[![Bootstrap 4.1.3](https://img.shields.io/badge/bootstrap-4.1.3-green.svg?style=flat-square)](https://getbootstrap.com/docs/4.1)  [![MIT License](https://badges.frapsoft.com/os/mit/mit.svg?style=flat-square)](https://opensource.org/licenses/mit-license.php)   [![Known Vulnerabilities](https://snyk.io/test/npm/bootstrap4-toggle/badge.svg)](https://snyk.io/test/npm/bootstrap4-toggle)
 
 # Bootstrap 4 Toggle
 
@@ -12,6 +12,7 @@ Visit https://gitbrent.github.io/bootstrap4-toggle/ for interactive demos.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Demos](#demos)
 - [Installation](#installation)
   - [Download](#download)
   - [CDN](#cdn)
@@ -26,21 +27,23 @@ Visit https://gitbrent.github.io/bootstrap4-toggle/ for interactive demos.
 - [Events](#events)
   - [Event Propagation](#event-propagation)
   - [API vs Input](#api-vs-input)
-- [Demos](#demos)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 **************************************************************************************************
 
+# Demos
+Visit https://gitbrent.github.io/bootstrap4-toggle/ for interactive checkbox toggle demos.
+
 # Installation
 
 ## Download
-[Version 3.1.0](https://github.com/gitbrent/bootstrap4-toggle/archive/v3.1.0.zip) is the latest version of Bootstrap4 Toggle.
+[Version 3.2.0](https://github.com/gitbrent/bootstrap4-toggle/archive/v3.2.0.zip) is the latest version of Bootstrap4 Toggle.
 
 ## CDN
 ```html
-<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.1.0/css/bootstrap4-toggle.min.css" rel="stylesheet">  
-<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.1.0/js/bootstrap4-toggle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.2.0/css/bootstrap4-toggle.min.css" rel="stylesheet">  
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.2.0/js/bootstrap4-toggle.min.js"></script>
 ```
 
 ## NPM
@@ -50,7 +53,7 @@ npm install bootstrap4-toggle
 
 ## Yarn
 ```bash
-yarn install
+yarn install bootstrap4-toggle
 ```
 
 # Usage
@@ -165,6 +168,3 @@ This also means that using the API or Input to trigger events will work both way
   }
 </script>
 ```
-
-# Demos
-Visit https://gitbrent.github.io/bootstrap4-toggle/ for demos.
