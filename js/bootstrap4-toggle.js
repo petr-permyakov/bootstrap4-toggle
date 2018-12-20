@@ -178,5 +178,4 @@
 		$checkbox.bootstrapToggle('toggle')
 		e.preventDefault()
 	})
-
 }(jQuery);
