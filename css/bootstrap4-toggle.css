@@ -1,6 +1,6 @@
 /*\
 |*| ========================================================================
-|*| Bootstrap Toggle: bootstrap4-toggle.css v3.4.0
+|*| Bootstrap Toggle: bootstrap4-toggle.css v3.5.0
 |*| https://gitbrent.github.io/bootstrap-toggle/
 |*| ========================================================================
 |*| Copyright 2018-2019 Brent Ely
@@ -27,6 +27,7 @@
 .toggle {
 	position: relative;
 	overflow: hidden;
+
 }
 .toggle.btn.btn-light, .toggle.btn.btn-outline-light {
 	/* bootstrap-4 - add a border so toggle is delineated */
@@ -46,6 +47,7 @@
 	-moz-user-select: none;
 	-webkit-user-select: none;
 }
+.toggle-group label, .toggle-group span { cursor: pointer; }
 .toggle.off .toggle-group {
 	left: -100%;
 }
