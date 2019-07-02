@@ -173,10 +173,10 @@
 		$('input[type=checkbox][data-toggle^=toggle]').bootstrapToggle()
 	})
 
-	$(document).on('touchend.bs.toggle click.bs.toggle', 'div[data-toggle^=toggle]', function(e) {
+	$(document).on('touchstart.bs.toggle click.bs.toggle', 'div[data-toggle^=toggle]', function(e) {
+		e.preventDefault()
 		var $checkbox = $(this).find('input[type=checkbox]')
 		$checkbox.bootstrapToggle('toggle')
-		e.preventDefault()
 	})
 
 }(jQuery);
