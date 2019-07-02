@@ -33,10 +33,10 @@
 			})
 			*/
 
-			$(document).on('click.bs.toggle', 'div[data-toggle^=toggle]', function(e) {
-				let $alert = $('<div class="alert alert-primary">'+ new Date().toLocaleString() +' = CLICK </div>')
+			$(document).on('touchstart.bs.toggle click.bs.toggle', 'div[data-toggle^=toggle]', function(ev) {
+				let $alert = $('<div class="alert alert-primary">'+ new Date().toLocaleString() +' = '+ ev.type + ' </div>')
 				$('#output').append($alert)
-				e.preventDefault()
+				ev.preventDefault()
 			})
 		}
 
