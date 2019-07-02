@@ -33,9 +33,9 @@
 			})
 			*/
 
-			$(document).on('touchstart.bs.toggle click.bs.toggle', 'div[data-toggle^=toggle]', function(ev) {
+			$(document).on('click.bs.toggle', 'div[data-toggle^=toggle]', function(ev) {
 				ev.preventDefault() // FIRST!
-				
+
 				let $alert = $('<div class="alert alert-primary">'
 					+ ev.type
 					+'<span class="float-right">'+ new Date().toLocaleString() +'</span>'
