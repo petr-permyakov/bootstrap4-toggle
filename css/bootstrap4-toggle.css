@@ -27,7 +27,6 @@
 .toggle {
 	position: relative;
 	overflow: hidden;
-
 }
 .toggle.btn.btn-light, .toggle.btn.btn-outline-light {
 	/* bootstrap-4 - add a border so toggle is delineated */
