@@ -11,7 +11,8 @@
   "main": "js/bootstrap4-toggle.min.js",
   "files": [
     "css/bootstrap4-toggle.min.css",
-    "js/bootstrap4-toggle.min.js"
+    "js/bootstrap4-toggle.min.js",
+    "js/bootstrap4-toggle.min.js.map"
   ],
   "scripts": {
     "build": "grunt"
